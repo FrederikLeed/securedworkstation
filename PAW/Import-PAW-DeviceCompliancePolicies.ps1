@@ -612,7 +612,7 @@ Foreach-object {
                 $GroupAdd = @"
      {
             "target": {
-            "@odata.type": "#microsoft.graph.$Assignment",
+            "@odata.type": "$Assignment",
             "groupId": "$TargetGroupId"
                         }
        },

@@ -269,7 +269,7 @@ $Resource = "deviceManagement/deviceConfigurations/$ConfigurationPolicyId/assign
 
         {
     "target": {
-    "@odata.type": "#microsoft.graph.$Assignment",
+    "@odata.type": "$Assignment",
     "groupId": "$TargetGroupId"
                 }
         }
